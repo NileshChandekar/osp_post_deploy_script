@@ -24,6 +24,8 @@ chmod 0440 /etc/sudoers.d/stack
 
 sleep 5
 cp /root/2.sh /home/stack/
+cp /root/3.sh /home/stack/
+cp /root/4.sh /home/stack/
 su stack -c "sh /home/stack/2.sh"
 su - stack
 
